@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div id="nav-content1">
+                <div class="circles">
+                    <div class="circle">
+                        <div class="s-circle"></div>
+                    </div>
+                    <div class="circle">
+                        <div class="s-circle"></div>
+                    </div>
+                </div>
+                <div class="nav-items">
+                    <a href="#">EN <span>IN</span></a>
+                    <a href="#">Country <span>:</span> India</a>
+                    <a href="#">Profile</a>
+                    <a href="#">Wishlist(0)</a>
+                    <a href="#">Search</a>
+                </div>
+                <div id="myNav" class="responsive">
+                    <a href="#">EN <span>IN</span></a>
+                    <a href="#">Country <span>:</span> India</a>
+                    <a href="#">Profile</a>
+                    <a href="#">Wishlist(0)</a>
+                    <a href="#">Search</a>
+                </div>
+                <div class="icon" onclick="toggleNav()">
+                    <i class="ri-menu-5-line" id="bar"></i>
+                </div>
+            </div>
+            <div id="nav-content2">
+                <h4>sun</h4>
+                <h4>optical</h4>
+                <h4>collections</h4>
+                <h4>studio</h4>
+                <h4>about</h4>
+                <h4>shop</h4>
+                <h4>journal</h4>
+            </div>
+        </nav>
+        <header>
+            <div id="header-top">
+                <div class="elem">
+                    <p class="elem-left">01</p>
+                    <div class="elem-right">
+                        <p class="elem-right-top">Be like</p>
+                        <h3>Flexible</h3>
+                    </div>
+                </div>
+                <div class="elem">
+                    <div class="elem">
+                        <p class="elem-left">02</p>
+                        <div class="elem-right">
+                            <p class="elem-right-top">lookbook</p>
+                            <h3>Trendline</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="elem">
+                    <div class="elem">
+                        <p class="elem-left">03</p>
+                        <div class="elem-right">
+                            <p class="elem-right-top">Follow the</p>
+                            <h3>Blender</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="elem">
+                    <div class="elem">
+                        <p class="elem-left">04</p>
+                        <div class="elem-right">
+                            <p class="elem-right-top">IT's</p>
+                            <h3>Cool</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="elem">
+                    <div class="elem">
+                        <p class="elem-left">05</p>
+                        <div class="elem-right">
+                            <p class="elem-right-top">Not Heavy</p>
+                            <h3>Strong</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="slides">
+                    <div class="slide"><img src="https://images.unsplash.com/photo-1490911679664-99d34ae56d94?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHdvbWVuJTIwd2VhcmluZyUyMGdsYXNzZXN8ZW58MHwwfDB8fHww" alt="Image 1"></div>
+                    <div class="slide"><img src="https://images.unsplash.com/photo-1595367555510-0428cca40e16?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHdvbWVuJTIwd2VhcmluZyUyMGdsYXNzZXN8ZW58MHwwfDB8fHww" alt="Image 2"></div>
+                    <div class="slide"><img src="https://images.unsplash.com/photo-1513673054901-2b5f51551112?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHdvbWVuJTIwd2VhcmluZyUyMGdsYXNzZXN8ZW58MHwwfDB8fHww" alt="Image 3"></div>
+                    <div class="slide"><img src="https://images.unsplash.com/photo-1542131596-91a634bfc5e7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU0fHx3b21lbiUyMHdlYXJpbmclMjBnbGFzc2VzfGVufDB8MHwwfHx8MA%3D%3D" alt="Image 4"></div>
+                    <div class="slide"><img src="https://images.unsplash.com/photo-1510696089168-f1d31149bdde?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA3fHx3b21lbiUyMHdlYXJpbmclMjBnbGFzc2VzfGVufDB8MHwwfHx8MA%3D%3D" alt="Image 5"></div>
+                </div>
+                <div class="prev">&#10094;</div>
+                <div class="next">&#10095;</div>
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+                    <!-- Add more dots if more slides are added -->
+                </div>
+            </div>
+        </header>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
